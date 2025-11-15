@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pcloud-proxy
+    env: node
+    startCommand: "node server.js"
+    plan: free
+    region: oregon
